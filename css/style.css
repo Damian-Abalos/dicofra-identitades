@@ -622,6 +622,9 @@ header p span {
     padding-right: 0;
     font-size: 0.9em;
   }
+  .form form div input {
+    font-size: 0.9em;
+  }
   .form form .boton {
     font-size: 1.2em;
   }
