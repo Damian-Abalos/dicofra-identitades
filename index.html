@@ -105,7 +105,7 @@
                         </div> 
                         <div class="row boton">
                             <div class="col-lg-5 boton-fantasma"></div>
-                            <div class="boton col-lg-5 col-sm-12"><a href="Gestión_de_Identidades.pdf" download="Gestión_de_Identidades.pdf" target="_blank">Descargar</a></div>
+                            <div class="boton col-lg-5 col-sm-12"><a href="Gestión_de_Identidades.pdf"  onclick=alerta() target="_blank">Descargar</a></div>
                             <div class="col-lg-2"></div> 
                         </div>     
                     </form>
@@ -272,6 +272,7 @@
     <script>
         function alerta(){
             alert('Sus datos fueron enviados correctamente');
+            download="Gestión_de_Identidades.pdf"
         }
     </script>
 </body>
