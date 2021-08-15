@@ -623,7 +623,8 @@ header p span {
     font-size: 0.9em;
   }
   .form form div input {
-    font-size: 0.9em;
+    padding: 20px 10px;
+    font-size: 0.8em;
   }
   .form form .boton {
     font-size: 1.2em;
